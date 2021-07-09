@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package file;
+
+option go_package = "github.com/damiao-wang/api/common/filepb";
+
+message File {
+  string name = 1;
+  bytes data = 2;
+}
